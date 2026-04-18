@@ -108,11 +108,11 @@ python manage.py runserver
 
 Descripción breve de las carpetas principales:
 
-- `blog_enterprise/`: paquete del proyecto Django (configuración, enrutado global).
+- `blog_enterprise/`: paquete del proyecto Django, configuración y enrutado global.
 - `blogs/`: app que contiene modelos de `Post`, `Category`, vistas para listar y mostrar posts, formularios y urls.
-- `dashboards/`: vistas y plantillas administrativas orientadas a gestión (crear/editar posts y categorías).
+- `dashboards/`: vistas y plantillas administrativas orientadas a gestión para crear/editar posts y categorías.
 - `templates/`: plantillas Jinja/Django usadas por las vistas.
-- `static/` y `media/`: activos estáticos (CSS/JS/imagenes) y archivos subidos por usuarios.
+- `static/` y `media/`: activos estáticos y archivos subidos por usuarios.
 
 ---
 
@@ -134,7 +134,7 @@ Ruta por defecto: ` / ` (home).
 
 - Inicio / Lista de posts
 
-<img width="1864" height="901" alt="image" src="https://github.com/user-attachments/assets/031f8470-3383-4460-92e1-4ce5c3cbdb90" />
+<img width="744" height="899" alt="image" src="https://github.com/user-attachments/assets/77296104-03dd-43f6-8fa5-088f668fc15f" />
 <img width="1847" height="894" alt="image" src="https://github.com/user-attachments/assets/d8298558-afbc-4546-a840-a1af40135304" />
 
 - Vista de post (detalle)
@@ -145,4 +145,7 @@ Ruta por defecto: ` / ` (home).
 
 <img width="1435" height="778" alt="image" src="https://github.com/user-attachments/assets/549c91b1-0d5b-4476-b527-59cc9a315426" />
 
-
+- Dashboards de posts/categorías
+- 
+<img width="1047" height="793" alt="image" src="https://github.com/user-attachments/assets/a1b7cc24-1b46-4b6a-ab4f-75efba7cabd6" />
+<img width="1455" height="873" alt="image" src="https://github.com/user-attachments/assets/f0b59f33-9504-4d0b-af11-2f46fea55553" />
